@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Prayer Time</title>
+</head>
+<body>
+    <h1>مواعيد الصلاوات حسب المدينة</h1>
+
+    <div class="container">
+      <div class="salah">
+        <p>الفجر</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+      <div class="salah">
+        <p>الشروق</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+      <div class="salah">
+        <p>الظهر</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+      <div class="salah">
+        <p>العصر</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+      <div class="salah">
+        <p>المغرب</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+      <div class="salah">
+        <p>العشاء</p>
+        <hr />
+        <span class="time"></span>
+      </div>
+    </div>
+    <div class="btns">
+      <h2>اختر مدينة :</h2>
+      <input type="button" class="btn" id="quds" value="القدس" />
+      <input type="button" class="btn" id="cairo" value="القاهرة" />
+      <input type="button" class="btn" id="amman" value="عمان" />
+      <input type="button" class="btn" id="gaza" value="غزة" />
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
